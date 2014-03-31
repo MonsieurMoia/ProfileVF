@@ -1,0 +1,241 @@
+ body > div {
+    background-repeat: repeat-x;
+    background-position: top center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 25%;
+}
+.btn {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   background:#fff;
+   color: #4d4d4d;
+   border:none;
+   font-weight: 600;  
+   height:40px;
+   position: relative;
+   top: 0;
+   -webkit-transition: all .4s;
+   -moz-transition: all .4s;
+   -ms-transition: all .4s;
+   -o-transition: all .4s;
+   transition: all .4s;
+}
+.btn:hover, .btn:active, .btn.active {
+  background-color: #fff;
+  color:#4d4d4d;
+  -webkit-box-shadow: 0 0 0 #fff;
+  -moz-box-shadow: 0 0 0 #fff;
+  box-shadow: 0 0 0 #fff;
+  position:relative;
+  top: 6px;
+}
+.btn-icon {
+  color:#fff;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding: .5em .5em;
+  border-bottom:3px solid #fff;
+  font-size: .9em;
+  margin-right: 10px;
+}
+.btn-primary {
+  -webkit-box-shadow: 0 6px 0 #1cb5ea, 0 8px 1px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 6px 0 #1cb5ea, 0 8px 1px rgba(0,0,0,.1);
+  box-shadow: 0 6px 0 #1cb5ea, 0 8px 1px rgba(0,0,0,.1);
+}
+.btn-primary .btn-icon {
+  background-color: #1cb5ea;
+}
+.btn-danger {
+  -webkit-box-shadow: 0 6px 0 #ee5437, 0 8px 1px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 6px 0 #ee5437, 0 8px 1px rgba(0,0,0,.1);
+  box-shadow: 0 6px 0 #ee5437, 0 8px 1px rgba(0,0,0,.1);
+}
+.btn-danger .btn-icon {
+  background-color: #ee5437;
+}
+.btn-success {
+  -webkit-box-shadow: 0 6px 0 #97ce41, 0 8px 1px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 6px 0 #97ce41, 0 8px 1px rgba(0,0,0,.1);
+  box-shadow: 0 6px 0 #97ce41, 0 8px 1px rgba(0,0,0,.1);
+}
+.btn-success .btn-icon {
+  background-color: #97ce41;
+}
+.btn-warning {
+  -webkit-box-shadow: 0 6px 0 #ffb83b, 0 8px 1px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 6px 0 #ffb83b, 0 8px 1px rgba(0,0,0,.1);
+  box-shadow: 0 6px 0 #ffb83b, 0 8px 1px rgba(0,0,0,.1);
+}
+.btn-warning .btn-icon {
+  background-color: #ffb83b;
+}
+.btn-info {
+  -webkit-box-shadow: 0 6px 0 #99569b, 0 8px 1px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 6px 0 #99569b, 0 8px 1px rgba(0,0,0,.1);
+  box-shadow: 0 6px 0 #99569b, 0 8px 1px rgba(0,0,0,.1);
+}
+.btn-info .btn-icon {
+  background-color: #99569b;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary,
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger,
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success ,
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning ,
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info {
+  background-color: #fff;
+  color:#4d4d4d;
+}
+.app-disabled button{
+  background-color: #fff;
+  color:#b3b3b3;
+}
+.app.disabled .btn, .app.disabled .btn[disabled] {
+  opacity: .9;
+  -webkit-box-shadow: 0 6px 0 #b3b3b3,0 8px 1px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 6px 0 #b3b3b3,0 8px 1px rgba(0,0,0,.1);
+  box-shadow: 0 6px 0 #b3b3b3,0 8px 1px rgba(0,0,0,.1);
+  cursor:pointer;
+  pointer-events: auto;
+}
+.app .btn.disabled img{
+  background-image: url();
+}
+.app.disabled .btn:hover, .app.disabled .btn:hover {
+  top:0px;
+}
+.btn.disabled .btn-icon {
+  background-color: #b3b3b3;
+}
+
+.bg-info {
+  background-color: #99569b;
+}
+.bg-primary {
+  background-color: #1cb5ea;
+}
+.bg-success{
+  background-color: #97ce41;
+}
+.bg-warning {
+  background-color: #ffb83b;
+}
+.bg-danger {
+  background-color: #ee5437;
+}
+.page-header{
+  font-size: 30px;
+  font-weight: 400;
+  border: none;
+  margin: 10px auto 0;
+}
+
+.logo {
+  background: url(https://s3.amazonaws.com/3vot.com/images/3vot-logo-white.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  width:82px;
+  height:42px;
+  margin: 20px auto 10px;
+  display: block;
+}
+.profile-img{
+  margin:20px auto 0;
+  max-width:60px;
+}
+.profile-detail {
+  display: inline-block;
+  margin:5px 10px;
+}
+.store-menu {
+  margin:10px auto;
+}
+.store-menu button {
+  padding:0 10px 0;
+  text-align: left;
+  margin-bottom: 15px
+}
+.apps-container {
+  width:90%;
+  border-top: 1px solid rgba(255,255,255,.4);
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  -webkit-box-shadow: 0 -1px 0 rgba(0,0,0,.1), 0 1px 0 rgba(255,255,255,.4);
+  -moz-box-shadow: 0 -1px 0 rgba(0,0,0,.1), 0 1px 0 rgba(255,255,255,.4);
+  box-shadow: 0 -1px 0 rgba(0,0,0,.1), 0 1px 0 rgba(255,255,255,.4);
+  padding: 15px 15px 20px;
+  margin: 20px 0 20px 5%;
+}
+.app, .no-app {
+  display: inline-block;
+  vertical-align: top;
+  margin:10px 8px;
+  width:88px;
+}
+.app button, .no-app .square {
+  height: 73px;
+  width: 73px;
+  margin-bottom: 10px;
+}
+.no-app .square {
+  display: block;
+  background-color: rgba(77,77,77,.1);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 2px 0 rgba(255,255,255,.2);
+  -moz-box-shadow: 0 2px 0 rgba(255,255,255,.2);
+  box-shadow: 0 2px 0 rgba(255,255,255,.2);
+}
+.app button {
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.app .btn-primary {background-image: url(3vot-icon-app-blue.jpg);}
+.app .btn-danger {background-image: url(3vot-icon-app-red.jpg);}
+.app .btn-success {background-image: url(3vot-icon-app-green.jpg);}
+.app .btn-warning {background-image: url(3vot-icon-app-yellow.jpg);}
+.app .btn-info {background-image: url(3vot-icon-app-purple.jpg);}
+.app.disabled button {background-image: url(3vot-icon-app-gray.jpg);}
+.app .h6 {
+  font-weight: 600;
+  font-size: 14px;
+  height: 35px;
+  margin: 0;
+  display: block;
+  overflow: hidden;
+}
+.text-inverse {
+  color: #fff;
+}
+.text-shadow {
+  text-shadow: 0 2px 1px rgba(0,0,0,.2);
+}
+.box-shadow {
+    -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 2px 2px rgba(0,0,0,.2);
+    box-shadow: 0 2px 2px rgba(0,0,0,.2);  
+}
+
+@media (max-width: 1200px) and (min-width: 0px) {
+
+}
+
+@media (max-width: 1024px) and (min-width: 0px){
+
+}
+
+@media (max-width: 768px) and (min-width: 0px) {
+
+}
+
+@media (max-width:480px) and (min-width:0px) {
+
+}
